@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
           
       - name: read file content
-        run: echo "$(README.txt)"
+        run: echo "$(cat README.txt)"
